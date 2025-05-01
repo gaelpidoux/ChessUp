@@ -1,0 +1,2 @@
+C:/Users/Pidoux/StudioProjects/ChessUp/android/app/.cxx/Debug/621n0572/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/Pidoux/StudioProjects/ChessUp/android/app/.cxx/Debug/621n0572/x86_64/CMakeFiles/rebuild_cache.dir
