@@ -1,16 +1,41 @@
-# chess_up_help
+# ♟️ ChessUp – Jeu d’échecs augmenté avec IA locale et effets spéciaux
 
-A new Flutter project.
+ChessUp est une application Flutter de jeu d’échecs en local, contre un joueur ou une IA, intégrant des mécaniques de buffs/débuffs pour rendre les parties plus ludiques et imprévisibles.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📽️ Vidéo de démonstration
 
-A few resources to get you started if this is your first Flutter project:
+👉 [Voir la vidéo de démo](video_demo.mp4)
+👉 Présentation en pdf ChessFunPrez.pdf
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Fonctionnalités principales
+
+- 🧠 Jouer contre une **IA locale légère en Dart**
+- 🧍 Jouer contre un **autre joueur en local**
+- ⚡️ Buffs/Débuffs dynamiques :
+    - Inversion du plateau si un cavalier est capturé
+    - Boost de pion s’il capture une pièce
+- 🎨 Interface simple avec design cohérent
+- 🔁 Orientation dynamique de l’échiquier
+- 💾 Aucune dépendance à un backend ou à une API externe
+
+---
+
+## 🧱 Technologies utilisées
+
+- **Flutter 3.x**
+- `flutter_chess_board` v1.0.1
+- `chess` v0.7.0 (moteur de logique échiquéenne)
+- IA codée en **pur Dart** (mini moteur de choix de coups)
+- Android Emulator (compatible ARM64 recommandé)
+
+---
+
+## 🧪 Test et exécution
+
+```bash
+flutter pub get
+flutter run
