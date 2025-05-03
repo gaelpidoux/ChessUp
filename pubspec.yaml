@@ -1,0 +1,27 @@
+name: ChessUp
+description: "ChessUp"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_chess_board: ^1.0.1
+  stockfish: ^1.0.5
+  path_provider: ^2.1.5
+  permission_handler: ^12.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/stockfish/stockfish-android-armv8
+  uses-material-design: true
