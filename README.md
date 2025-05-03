@@ -6,7 +6,7 @@ ChessUp est une application Flutter de jeu d’échecs en local, contre un joueu
 
 ## 📽️ Vidéo de démonstration
 
-👉 [Voir la vidéo de démo](video_demo.mp4)
+👉 Voir la vidéo de démo video_demo.mp4
 👉 Présentation en pdf ChessFunPrez.pdf
 
 ---
